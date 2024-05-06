@@ -1,6 +1,6 @@
 # Description
 
-Using Rider 2024.1.1, it is unable to resolve variables inside of a Terraform folder.
+Using Rider 2024.1.1, it is unable to resolve variables inside of a Terraform folder, if the full solution is open.
 
 # Reproduction
 
@@ -11,4 +11,4 @@ Using Rider 2024.1.1, it is unable to resolve variables inside of a Terraform fo
 
 # Note
 
-If you open the `terraform` folder directly in Rider (Open -> Select `terraform` folder) it is able to resolve the variables.
+If you open the `terraform` folder directly in Rider (NOT the full solution) (Open -> Select `terraform` folder) it is able to resolve the variables.
